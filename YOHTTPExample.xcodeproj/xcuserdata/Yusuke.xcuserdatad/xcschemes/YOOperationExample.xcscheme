@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7039DC13197A0D3E00E31D52"
                BuildableName = "YOOperationExample.app"
-               BlueprintName = "YOOperationExample"
-               ReferencedContainer = "container:YOOperationExample.xcodeproj">
+               BlueprintName = "YOHTTPExample"
+               ReferencedContainer = "container:YOHTTPExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7039DC37197A0D3E00E31D52"
                BuildableName = "YOOperationExampleTests.xctest"
-               BlueprintName = "YOOperationExampleTests"
-               ReferencedContainer = "container:YOOperationExample.xcodeproj">
+               BlueprintName = "YOHTTPExampleTests"
+               ReferencedContainer = "container:YOHTTPExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7039DC13197A0D3E00E31D52"
             BuildableName = "YOOperationExample.app"
-            BlueprintName = "YOOperationExample"
-            ReferencedContainer = "container:YOOperationExample.xcodeproj">
+            BlueprintName = "YOHTTPExample"
+            ReferencedContainer = "container:YOHTTPExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7039DC13197A0D3E00E31D52"
             BuildableName = "YOOperationExample.app"
-            BlueprintName = "YOOperationExample"
-            ReferencedContainer = "container:YOOperationExample.xcodeproj">
+            BlueprintName = "YOHTTPExample"
+            ReferencedContainer = "container:YOHTTPExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7039DC13197A0D3E00E31D52"
             BuildableName = "YOOperationExample.app"
-            BlueprintName = "YOOperationExample"
-            ReferencedContainer = "container:YOOperationExample.xcodeproj">
+            BlueprintName = "YOHTTPExample"
+            ReferencedContainer = "container:YOHTTPExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

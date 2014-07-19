@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "YOHTTPOperation.h"
 
 @interface YOOperationExampleTests : XCTestCase
 
@@ -26,9 +27,8 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testConnection
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
 }
 
 @end
