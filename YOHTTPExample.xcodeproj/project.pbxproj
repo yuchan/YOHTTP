@@ -30,6 +30,8 @@
 		7039DC76197A19CD00E31D52 /* YOHTTPOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7039DC74197A19CD00E31D52 /* YOHTTPOperationManager.m */; };
 		7039DC81197A1E7B00E31D52 /* YOHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7039DC80197A1E7B00E31D52 /* YOHTTPRequest.m */; };
 		7039DC82197A1E7B00E31D52 /* YOHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7039DC80197A1E7B00E31D52 /* YOHTTPRequest.m */; };
+		703B85D1197A5AE8005B2502 /* UIImageView+webImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 703B85D0197A5AE8005B2502 /* UIImageView+webImage.m */; };
+		703B85D2197A5AE8005B2502 /* UIImageView+webImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 703B85D0197A5AE8005B2502 /* UIImageView+webImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		7039DC77197A1B0B00E31D52 /* YOHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHTTP.h; sourceTree = "<group>"; };
 		7039DC7F197A1E7B00E31D52 /* YOHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHTTPRequest.h; sourceTree = "<group>"; };
 		7039DC80197A1E7B00E31D52 /* YOHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHTTPRequest.m; sourceTree = "<group>"; };
+		703B85CF197A5AE8005B2502 /* UIImageView+webImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+webImage.h"; sourceTree = "<group>"; };
+		703B85D0197A5AE8005B2502 /* UIImageView+webImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+webImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,8 +169,18 @@
 				7039DC74197A19CD00E31D52 /* YOHTTPOperationManager.m */,
 				7039DC7F197A1E7B00E31D52 /* YOHTTPRequest.h */,
 				7039DC80197A1E7B00E31D52 /* YOHTTPRequest.m */,
+				703B85CE197A5AC7005B2502 /* UIKit */,
 			);
 			path = YOHTTP;
+			sourceTree = "<group>";
+		};
+		703B85CE197A5AC7005B2502 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				703B85CF197A5AE8005B2502 /* UIImageView+webImage.h */,
+				703B85D0197A5AE8005B2502 /* UIImageView+webImage.m */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +290,7 @@
 				7039DC64197A0DC400E31D52 /* ViewController.m in Sources */,
 				7039DC71197A0EA000E31D52 /* YOHTTPOperation.m in Sources */,
 				7039DC63197A0DC400E31D52 /* main.m in Sources */,
+				703B85D1197A5AE8005B2502 /* UIImageView+webImage.m in Sources */,
 				7039DC5E197A0DC400E31D52 /* AppDelegate.m in Sources */,
 				7039DC81197A1E7B00E31D52 /* YOHTTPRequest.m in Sources */,
 			);
@@ -288,6 +303,7 @@
 				7039DC6D197A0DD800E31D52 /* YOHTTPExampleTests.m in Sources */,
 				7039DC76197A19CD00E31D52 /* YOHTTPOperationManager.m in Sources */,
 				7039DC72197A0EA000E31D52 /* YOHTTPOperation.m in Sources */,
+				703B85D2197A5AE8005B2502 /* UIImageView+webImage.m in Sources */,
 				7039DC82197A1E7B00E31D52 /* YOHTTPRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,6 +513,7 @@
 				7039DC4B197A0D3E00E31D52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7039DC4C197A0D3E00E31D52 /* Build configuration list for PBXNativeTarget "YOHTTPExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +522,7 @@
 				7039DC4E197A0D3E00E31D52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
