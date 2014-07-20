@@ -1,5 +1,5 @@
 //
-//  UIImageView+webImage.h
+//  UIImageView+YOHTTP.h
 //  YOHTTPExample
 //
 //  Created by Ohashi Yusuke on 7/19/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImageView (webImage)
+@interface UIImageView (YOHTTP)
 - (void)setImageWithUrl:(NSString *)url complete:(void(^)(UIImage *image, NSString *url))complete;
 @end

@@ -40,6 +40,7 @@
         self.connection = [[NSURLConnection alloc] initWithRequest:request delegate:self startImmediately:NO];
         self.successBlock = success;
         self.errorBlock = error;
+        self.shouldUseCredential = YES;
     }
     
     return self;
@@ -76,6 +77,7 @@
 
 - (void) start
 {
+    @synchronized(self){
     if ([self isCancelled]) {
         [self setFinished:YES];
         return;
@@ -85,6 +87,7 @@
     [self.connection scheduleInRunLoop:[NSRunLoop mainRunLoop]
                                forMode:NSDefaultRunLoopMode];
     [self.connection start];
+    }
 }
 
 - (void)main

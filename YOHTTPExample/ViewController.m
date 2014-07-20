@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "YOHTTP.h"
-#import "UIImageView+webImage.h"
+#import "UIImageView+YOHTTP.h"
 
 @interface ViewController ()
 {
