@@ -10,32 +10,26 @@
 #import "YOHTTPOperationManager.h"
 
 @interface YOHTTPRequest()
-@property (nonatomic, strong) NSURLRequest *request;
-@property (nonatomic, strong) YOHTTPOperation *operation;
 @end
 @implementation YOHTTPRequest
-@synthesize priority = _priority;
 
 - (id)initWithRequest:(NSURLRequest *)request
+             complete:(YOHTTPRequestSuccessBlock)successBlock
+                error:(YOHTTPRequestErrorBlock)errorBlock
 {
     self = [super init];
     if (self) {
-        self.request = request;
+        _request = request;
         _priority = NSOperationQueuePriorityNormal;
+        _operation = [[YOHTTPOperation alloc] initWithRequest:request success:successBlock error:errorBlock];
         return self;
     }
     
     return nil;
 }
 
-- (void)setPriority:(NSOperationQueuePriority)priority
+- (void)start
 {
-    _priority = priority;
-}
-
-- (void)start:(YOHTTPRequestSuccessBlock)successBlock error:(YOHTTPRequestErrorBlock)errorBlock
-{
-    self.operation = [[YOHTTPOperation alloc] initWithRequest:self.request success:successBlock error:errorBlock];
     [self.operation setQueuePriority:self.priority];
     YOHTTPOperationManager *mgr = [YOHTTPOperationManager defaultManager];
     [mgr addOperation:self.operation];
@@ -44,6 +38,5 @@
 - (void)cancel
 {
     [self.operation cancel];
-    self.operation = nil;
 }
 @end

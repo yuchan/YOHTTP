@@ -13,7 +13,10 @@
 @property (nonatomic,readonly) NSURLRequest *request;
 @property (nonatomic, readonly) YOHTTPOperation *operation;
 @property (nonatomic) NSOperationQueuePriority priority;
-- (id)initWithRequest:(NSURLRequest *)request;
-- (void)start:(YOHTTPRequestSuccessBlock)successBlock error:(YOHTTPRequestErrorBlock)errorBlock;
+
+- (id)initWithRequest:(NSURLRequest *)request
+             complete:(YOHTTPRequestSuccessBlock)successBlock
+                error:(YOHTTPRequestErrorBlock)errorBlock;
+- (void)start;
 - (void)cancel;
 @end
