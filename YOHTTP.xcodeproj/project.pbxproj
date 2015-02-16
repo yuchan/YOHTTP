@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7000B9881A91A3D200C9C5F6 /* UIImageView+YOHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 7000B9811A91A3D200C9C5F6 /* UIImageView+YOHTTP.m */; };
+		7000B9891A91A3D200C9C5F6 /* YOHTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7000B9831A91A3D200C9C5F6 /* YOHTTPOperation.m */; };
+		7000B98A1A91A3D200C9C5F6 /* YOHTTPOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7000B9851A91A3D200C9C5F6 /* YOHTTPOperationManager.m */; };
+		7000B98B1A91A3D200C9C5F6 /* YOHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7000B9871A91A3D200C9C5F6 /* YOHTTPRequest.m */; };
 		7039DC18197A0D3E00E31D52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7039DC17197A0D3E00E31D52 /* Foundation.framework */; };
 		7039DC1A197A0D3E00E31D52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7039DC19197A0D3E00E31D52 /* CoreGraphics.framework */; };
 		7039DC1C197A0D3E00E31D52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7039DC1B197A0D3E00E31D52 /* UIKit.framework */; };
@@ -24,14 +28,6 @@
 		7039DC6B197A0DD800E31D52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7039DC67197A0DD800E31D52 /* InfoPlist.strings */; };
 		7039DC6C197A0DD800E31D52 /* YOHTTPExampleTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7039DC69197A0DD800E31D52 /* YOHTTPExampleTests-Info.plist */; };
 		7039DC6D197A0DD800E31D52 /* YOHTTPExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7039DC6A197A0DD800E31D52 /* YOHTTPExampleTests.m */; };
-		7039DC71197A0EA000E31D52 /* YOHTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7039DC70197A0EA000E31D52 /* YOHTTPOperation.m */; };
-		7039DC72197A0EA000E31D52 /* YOHTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7039DC70197A0EA000E31D52 /* YOHTTPOperation.m */; };
-		7039DC75197A19CD00E31D52 /* YOHTTPOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7039DC74197A19CD00E31D52 /* YOHTTPOperationManager.m */; };
-		7039DC76197A19CD00E31D52 /* YOHTTPOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7039DC74197A19CD00E31D52 /* YOHTTPOperationManager.m */; };
-		7039DC81197A1E7B00E31D52 /* YOHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7039DC80197A1E7B00E31D52 /* YOHTTPRequest.m */; };
-		7039DC82197A1E7B00E31D52 /* YOHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7039DC80197A1E7B00E31D52 /* YOHTTPRequest.m */; };
-		703B85D1197A5AE8005B2502 /* UIImageView+YOHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 703B85D0197A5AE8005B2502 /* UIImageView+YOHTTP.m */; };
-		703B85D2197A5AE8005B2502 /* UIImageView+YOHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 703B85D0197A5AE8005B2502 /* UIImageView+YOHTTP.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7000B9801A91A3D200C9C5F6 /* UIImageView+YOHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+YOHTTP.h"; sourceTree = "<group>"; };
+		7000B9811A91A3D200C9C5F6 /* UIImageView+YOHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+YOHTTP.m"; sourceTree = "<group>"; };
+		7000B9821A91A3D200C9C5F6 /* YOHTTPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHTTPOperation.h; sourceTree = "<group>"; };
+		7000B9831A91A3D200C9C5F6 /* YOHTTPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHTTPOperation.m; sourceTree = "<group>"; };
+		7000B9841A91A3D200C9C5F6 /* YOHTTPOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHTTPOperationManager.h; sourceTree = "<group>"; };
+		7000B9851A91A3D200C9C5F6 /* YOHTTPOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHTTPOperationManager.m; sourceTree = "<group>"; };
+		7000B9861A91A3D200C9C5F6 /* YOHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHTTPRequest.h; sourceTree = "<group>"; };
+		7000B9871A91A3D200C9C5F6 /* YOHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHTTPRequest.m; sourceTree = "<group>"; };
 		7039DC14197A0D3E00E31D52 /* YOHTTPExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOHTTPExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7039DC17197A0D3E00E31D52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7039DC19197A0D3E00E31D52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,15 +69,6 @@
 		7039DC68197A0DD800E31D52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7039DC69197A0DD800E31D52 /* YOHTTPExampleTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "YOHTTPExampleTests-Info.plist"; sourceTree = "<group>"; };
 		7039DC6A197A0DD800E31D52 /* YOHTTPExampleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHTTPExampleTests.m; sourceTree = "<group>"; };
-		7039DC6F197A0EA000E31D52 /* YOHTTPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHTTPOperation.h; sourceTree = "<group>"; };
-		7039DC70197A0EA000E31D52 /* YOHTTPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHTTPOperation.m; sourceTree = "<group>"; };
-		7039DC73197A19CD00E31D52 /* YOHTTPOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHTTPOperationManager.h; sourceTree = "<group>"; };
-		7039DC74197A19CD00E31D52 /* YOHTTPOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHTTPOperationManager.m; sourceTree = "<group>"; };
-		7039DC77197A1B0B00E31D52 /* YOHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHTTP.h; sourceTree = "<group>"; };
-		7039DC7F197A1E7B00E31D52 /* YOHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHTTPRequest.h; sourceTree = "<group>"; };
-		7039DC80197A1E7B00E31D52 /* YOHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHTTPRequest.m; sourceTree = "<group>"; };
-		703B85CF197A5AE8005B2502 /* UIImageView+YOHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+YOHTTP.h"; sourceTree = "<group>"; };
-		703B85D0197A5AE8005B2502 /* UIImageView+YOHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+YOHTTP.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +95,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7000B97E1A91A3D200C9C5F6 /* YOHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				7000B97F1A91A3D200C9C5F6 /* UIKit */,
+				7000B9821A91A3D200C9C5F6 /* YOHTTPOperation.h */,
+				7000B9831A91A3D200C9C5F6 /* YOHTTPOperation.m */,
+				7000B9841A91A3D200C9C5F6 /* YOHTTPOperationManager.h */,
+				7000B9851A91A3D200C9C5F6 /* YOHTTPOperationManager.m */,
+				7000B9861A91A3D200C9C5F6 /* YOHTTPRequest.h */,
+				7000B9871A91A3D200C9C5F6 /* YOHTTPRequest.m */,
+			);
+			path = YOHTTPRequest;
+			sourceTree = "<group>";
+		};
+		7000B97F1A91A3D200C9C5F6 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7000B9801A91A3D200C9C5F6 /* UIImageView+YOHTTP.h */,
+				7000B9811A91A3D200C9C5F6 /* UIImageView+YOHTTP.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		7039DC0B197A0D3E00E31D52 = {
 			isa = PBXGroup;
 			children = (
-				7039DC6E197A0E8200E31D52 /* YOHTTP */,
+				7000B97E1A91A3D200C9C5F6 /* YOHTTPRequest */,
 				7039DC4F197A0DC400E31D52 /* YOHTTPExample */,
 				7039DC66197A0DD800E31D52 /* YOHTTPExampleTests */,
 				7039DC16197A0D3E00E31D52 /* Frameworks */,
@@ -157,30 +175,6 @@
 				7039DC6A197A0DD800E31D52 /* YOHTTPExampleTests.m */,
 			);
 			path = YOHTTPExampleTests;
-			sourceTree = "<group>";
-		};
-		7039DC6E197A0E8200E31D52 /* YOHTTP */ = {
-			isa = PBXGroup;
-			children = (
-				7039DC77197A1B0B00E31D52 /* YOHTTP.h */,
-				7039DC6F197A0EA000E31D52 /* YOHTTPOperation.h */,
-				7039DC70197A0EA000E31D52 /* YOHTTPOperation.m */,
-				7039DC73197A19CD00E31D52 /* YOHTTPOperationManager.h */,
-				7039DC74197A19CD00E31D52 /* YOHTTPOperationManager.m */,
-				7039DC7F197A1E7B00E31D52 /* YOHTTPRequest.h */,
-				7039DC80197A1E7B00E31D52 /* YOHTTPRequest.m */,
-				703B85CE197A5AC7005B2502 /* UIKit */,
-			);
-			path = YOHTTP;
-			sourceTree = "<group>";
-		};
-		703B85CE197A5AC7005B2502 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				703B85CF197A5AE8005B2502 /* UIImageView+YOHTTP.h */,
-				703B85D0197A5AE8005B2502 /* UIImageView+YOHTTP.m */,
-			);
-			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,13 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7039DC75197A19CD00E31D52 /* YOHTTPOperationManager.m in Sources */,
+				7000B9891A91A3D200C9C5F6 /* YOHTTPOperation.m in Sources */,
+				7000B98A1A91A3D200C9C5F6 /* YOHTTPOperationManager.m in Sources */,
 				7039DC64197A0DC400E31D52 /* ViewController.m in Sources */,
-				7039DC71197A0EA000E31D52 /* YOHTTPOperation.m in Sources */,
 				7039DC63197A0DC400E31D52 /* main.m in Sources */,
-				703B85D1197A5AE8005B2502 /* UIImageView+YOHTTP.m in Sources */,
+				7000B98B1A91A3D200C9C5F6 /* YOHTTPRequest.m in Sources */,
+				7000B9881A91A3D200C9C5F6 /* UIImageView+YOHTTP.m in Sources */,
 				7039DC5E197A0DC400E31D52 /* AppDelegate.m in Sources */,
-				7039DC81197A1E7B00E31D52 /* YOHTTPRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,10 +295,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7039DC6D197A0DD800E31D52 /* YOHTTPExampleTests.m in Sources */,
-				7039DC76197A19CD00E31D52 /* YOHTTPOperationManager.m in Sources */,
-				7039DC72197A0EA000E31D52 /* YOHTTPOperation.m in Sources */,
-				703B85D2197A5AE8005B2502 /* UIImageView+YOHTTP.m in Sources */,
-				7039DC82197A1E7B00E31D52 /* YOHTTPRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

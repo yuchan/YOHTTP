@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "YOHTTP.h"
+#import "YOHTTPRequest.h"
 #import "UIImageView+YOHTTP.h"
 
 @interface ViewController ()
