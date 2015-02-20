@@ -119,12 +119,6 @@
 {
     NSLog(@"%@", response.URL.absoluteString);
     self.response = response;
-    NSHTTPURLResponse* httpResponse = (NSHTTPURLResponse*)self.response;
-    int code = [httpResponse statusCode];
-    if (code >= 400) {
-        self.data = nil;
-        [self connection:conn didFailWithError:nil];
-    }
 }
 
 - (BOOL)connectionShouldUseCredentialStorage:(NSURLConnection *)connection
